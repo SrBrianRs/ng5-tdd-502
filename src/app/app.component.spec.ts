@@ -26,10 +26,6 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('ng4');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ng4 app is running!');
-  });
+  
 });
+//expect(compiled.querySelector('h1').textContent).toContain('¡Bienvenido a la aplicación! ');
